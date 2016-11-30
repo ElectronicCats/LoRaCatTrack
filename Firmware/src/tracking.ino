@@ -29,9 +29,9 @@ const unsigned TX_INTERVAL = 30;
 
 // Pin mapping
 const lmic_pinmap lmic_pins = {
-    .nss = 6,
+    .nss = 10,
     .rxtx = LMIC_UNUSED_PIN,
-    .rst = 5,
+    .rst = 9,
     .dio = {2, 3, 4},
 };
 
